@@ -2,8 +2,8 @@
 if hash node-waf 2>/dev/null; then
   echo 'building with node-waf'
   rm -rf build
-  node-waf configure build
+  /usr/local/lib/node_modules/npm/bin/node-gyp-bin/node-gyp configure build
 else
   echo 'building with node-gyp'
-  node-gyp rebuild
+  /usr/local/lib/node_modules/npm/bin/node-gyp-bin/node-gyp rebuild
 fi
