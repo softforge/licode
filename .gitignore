@@ -16,3 +16,4 @@ erizo_controller/erizoAgent/erizo-*.log
 .idea/
 rabbit.log
 npm-debug.log
+uploads/*

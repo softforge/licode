@@ -97,7 +97,7 @@ config.erizoController.report = {
 }; 
 
 // If undefined, the path will be /tmp/
-config.erizoController.recording_path = undefined; // default value: undefined
+config.erizoController.recording_path = '/Users/joe/PhpstormProjects/licode/uploads/'; // default value: undefined
 
 // Erizo Controller Cloud Handler policies are in erizo_controller/erizoController/ch_policies/ folder
 config.erizoController.cloudHandlerPolicy = 'default_policy.js'; // default value: 'default_policy.js'
