@@ -15,3 +15,5 @@ erizo_controller/erizoAgent/erizo-*.log
 .project
 .cproject
 .idea/
+rabbit.log
+npm-debug.log
